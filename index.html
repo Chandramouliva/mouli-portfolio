@@ -10,9 +10,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://unpkg.com/github-calendar@1.3.1/dist/github-calendar.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-calendar/1.3.1/github-calendar-responsive.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">   
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">    -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
   </head>
+<!-- 
+  images
+  HTML: src="https://icon-library.com/images/html5-icon/html5-icon-13.jpg"
 
+ -->
 <body id="home">
  <!-- SHOWCASE -->
   <section >
@@ -47,7 +52,7 @@
                
           </div>
             </p>
-            <a href="resume/ChandraMouli_Resume.pdf" download target="blank"><button type="button" class="btn button primary-button text-uppercase mybtn text-white btn-lg"><strong class="black text-white">RESUME</strong></button></a>
+            <a href="resume/ChandraMouli_Resume.pdf" download target="blank"><button type="button" class="btn btn btn-primary btn-lg"><strong class="black text-white">RESUME</strong></button></a>
         </div>
         
         
@@ -57,22 +62,22 @@
   <!-- BOXES -->
   <section id="boxes" class="py-3 bg-light">
     <div class="container">
-      <h2 class="text-center black m-4"><strong>Tech Stack</strong></h2>
-      <div class="row text-center">
-        <div class="col-lg-3 col-md-6">
-          <img class="shadow-lg rounded-circle shadow-sm showcase bg-white rounded border" src="img/html5.svg" >
+      <h2 class="text-center black m-4 teckstackHeader"><strong class="teckstack">Tech Stack</strong></h2>
+      <div class="row text-center ">
+        <div class="col-lg-3 col-md-6 htmllogo">
+          <img class="shadow-lg rounded-circle shadow-sm showcase bg-white rounded border" src="https://icon-library.com/images/html5-icon/html5-icon-13.jpg" >
           <p class="font-weight-bold">HTML-5</p>
         </div>
-        <div class="col-lg-3 col-md-6 mt-2">
-          <img class="shadow-lg rounded-circle shadow-sm showcase" src="img/git.svg" >
+        <div class="col-lg-3 col-md-6 mt-2 htmllogo">
+          <img class="shadow-lg rounded-circle shadow-sm showcase" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" >
           <p class="font-weight-bold">GitHub</p>
         </div>
-        <div class="col-lg-3 col-md-6">
-          <img class=" shadow-lg rounded-circle shadow-sm showcase" src="img/css.png" >
+        <div class="col-lg-3 col-md-6 htmllogo">
+          <img class=" shadow-lg rounded-circle shadow-sm showcase" style="padding: 10px;" src="https://www.kindpng.com/picc/m/464-4640184_css3-png-download-css-icon-transparent-png.png" >
           <p class="font-weight-bold">CSS</p>
         </div>
-        <div class="col-lg-3 col-md-6 mt-2">
-          <img class="shadow-lg rounded-circle shadow-sm showcase" src="img/bootstrap.svg ">
+        <div class="col-lg-3 col-md-6 mt-2 htmllogo">
+          <img class="shadow-lg rounded-circle shadow-sm showcase" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1024px-Bootstrap_logo.svg.png">
           <p class="font-weight-bold">Bootstrap</p>
         </div>
       </div>
@@ -81,23 +86,23 @@
   <section id="boxes" class="py-2 bg-light">
     <div class="container">
       <div class="row text-center">
-        <div class="col-lg-3 col-md-6 mt-2">
-          <img class="shadow-lg rounded-circle shadow-sm showcase" src="img/javascript.svg" >
+        <div class="col-lg-3 col-md-6 mt-2 htmllogo">
+          <img class="shadow-lg rounded-circle shadow-sm showcase" src="data:image/png;base64,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" >
           <p class="font-weight-bold">Javascript</p>
         </div>
-        <div class="col-lg-3 col-md-6 mt-2">
-          <img class="shadow-lg rounded-circle shadow-sm showcase" src="img/react.svg" >
+        <div class="col-lg-3 col-md-6 mt-2 htmllogo">
+          <img class="shadow-lg rounded-circle shadow-sm showcase" src="https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png" >
           <p class="font-weight-bold">React</p>
         </div>
-        <div class="col-lg-3 col-md-6 mt-2">
-          <img class="shadow-lg rounded-circle shadow-sm showcase" src="img/myRedux.svg" >
+        <div class="col-lg-3 col-md-6 mt-2 htmllogo">
+          <img class="shadow-lg rounded-circle shadow-sm showcase" src="http://assets.stickpng.com/images/5848309bcef1014c0b5e4a9a.png" >
           <p class="font-weight-bold">Redux</p>
         </div>
-        <div class="col-lg-3 col-md-6 mt-1">
+        <div class="col-lg-3 col-md-6 mt-1 htmllogo">
           <img class="shadow-lg rounded-circle shadow-sm showcase"  src="img/python.svg" >
           <p class="font-weight-bold">Python</p>
         </div>
-        
+      
       </div>
     </div>
   </section>
@@ -108,7 +113,7 @@
           <img class="shadow-lg rounded-circle shadow-sm showcase" src="img/flask.svg" >
           <p class="font-weight-bold">Flask</p>
         </div> -->
-        <div class="col-lg-3 col-md-6 mt-2">
+        <div class="col-lg-3 col-md-6 mt-2 htmllogo">
           <img class="shadow-lg rounded-circle shadow-sm showcase" src="img/mysql.svg" >
           <p class="font-weight-bold">MySql</p>
         </div>
@@ -121,7 +126,7 @@
 
   <section id="about" class="py-5 text-center ">
     <div class="container">
-      <h2 class="text-center black"><strong>Proficiency</strong></h2>
+      <h2 class="text-center black teckstackHeader"><strong class="teckstack">Proficiency</strong></h2>
       <div class="row text-center mt-5">
         <div class="col-lg-3 col-md-6 mt-2 ">
             <img class="mb-2" src="img/v.svg" style="width: 105px;height:100px">
@@ -154,7 +159,7 @@
 
   <section id="about" class="py-5 text-center bg-light ">
     <div class="mb-5 mt-5">
-      <h2 class="text-center black"><strong>Projects</strong></h2>
+      <h2 class="text-center black teckstackHeader"><strong class="teckstack">Projects</strong></h2>
   </div>
   
   <!-- card1 -->
