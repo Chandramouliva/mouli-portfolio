@@ -171,3 +171,96 @@
 .resumeBtn:hover {
   padding: 10px 50px;
 }
+
+.myProfileSection {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(18, 10, 31);
+  justify-content: space-between;
+}
+
+.myImaageSection {
+  border: 1px solid red;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  align-self: center;
+  margin-right: 150px;
+  /* background: white; */
+  background-image: url("file:///E:/masai_school/portfolio/mouli-portfolio/img/profilePic.jpg");
+  background-size: cover;
+  /* padding-left: 15px; */
+}
+
+.profileBox {
+  padding: 50px;
+  background-color: rgb(18, 10, 31);
+  height: 650px;
+}
+
+.myHaiStyles {
+  color: rgb(246, 250, 250);
+  font-size: 50px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  padding-top: 70px;
+}
+
+.myName {
+  color: rgb(246, 250, 250);
+  font-size: 50px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  line-height: 2mm;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+.myDesignation {
+  color: rgb(246, 250, 250);
+  font-size: 30px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  line-height: 5mm;
+  padding-top: 10px;
+}
+
+.myEmail {
+  padding-top: 5px;
+  color: white;
+  font-size: large;
+}
+
+.myPhone {
+  padding-left: 20px;
+  color: white;
+}
+
+.myLinkedIn {
+  color: white;
+  padding-left: 10px;
+  margin-top: 20px;
+}
+
+.lindenInLogo {
+  color: white;
+  border-radius: 15px;
+}
+
+.myGitHub {
+  color: white;
+  padding-left: 15px;
+}
+
+.gitHubLogo {
+  color: white;
+  border-radius: 15px;
+  margin-left: 10px;
+}
+
+.mySummary {
+  font-size: 25px;
+}
