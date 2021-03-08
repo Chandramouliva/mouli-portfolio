@@ -175,7 +175,8 @@
 .myProfileSection {
   display: flex;
   flex-wrap: wrap;
-  background-color: rgb(18, 10, 31);
+  /* background-color: rgb(18, 10, 31); */
+  background-color: rgb(5, 5, 0);
   justify-content: space-between;
 }
 
